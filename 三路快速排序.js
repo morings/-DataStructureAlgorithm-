@@ -1,5 +1,5 @@
 //优化普通元素对重复值过多影响效率问题
-export default function sort(arr,l,r){
+export default  function sort(arr,l,r){
     function swap(l,r){
         let p = arr[l]
         arr[l] = arr[r]
