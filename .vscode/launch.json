@@ -6,6 +6,7 @@
     "configurations": [
 
 
+
         {
             "type": "node",
             "request": "launch",
@@ -14,6 +15,15 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}\\二分搜索树.js"
+        }
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "并查集",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\并查集.js"
         }
     ]
 }
