@@ -7,6 +7,7 @@
 
 
 
+
         {
             "type": "node",
             "request": "launch",
@@ -24,6 +25,15 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}\\并查集.js"
+        }
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "图论",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\图论.js"
         }
     ]
 }
