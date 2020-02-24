@@ -10,6 +10,7 @@
 
 
 
+
         {
             "type": "node",
             "request": "launch",
@@ -40,11 +41,11 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "关联字符串",
+            "name": "最大矩阵",
             "skipFiles": [
                 "<node_internals>/**"
             ],
-            "program": "${workspaceFolder}\\关联字符串.js"
+            "program": "${workspaceFolder}\\最大矩阵.js"
         }
     ]
 }
