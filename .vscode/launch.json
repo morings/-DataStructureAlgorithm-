@@ -8,6 +8,8 @@
 
 
 
+
+
         {
             "type": "node",
             "request": "launch",
@@ -34,6 +36,15 @@
                 "<node_internals>/**"
             ],
             "program": "${workspaceFolder}\\图论.js"
+        }
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "关联字符串",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\关联字符串.js"
         }
     ]
 }
